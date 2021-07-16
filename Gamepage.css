@@ -4,3 +4,58 @@ body{
     padding:0;
     margin:0;
 }
+h1{
+    background-color: black;
+    text-align: center;
+    color: white;
+    
+}
+#Wrap1{
+	
+	width:90%;
+	margin:0 auto;
+	overflow:auto   ;
+    height:90%;
+    background-image: url('Images/Games_page.gif');
+    background-size: cover; 
+    opacity: 0.6; 
+   
+    
+    
+    
+
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+nav ul {
+    padding:0;
+	margin:0;
+	list-style-type: style none;
+    text-align: center;
+
+}
+nav li{
+    display: inline;
+    font-size: 50px;
+    padding-right: 4%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav a{
+	color:#333;
+	font-size:130%;
+	font-weight:100;
+	text-decoration:none;
+    
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    height: 300;
+    width: 600;
+}
