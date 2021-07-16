@@ -1,0 +1,165 @@
+body {
+    background-image: url('Images/Matrix.gif');
+    
+}
+
+
+
+nav{
+    background-color: green;
+    float:center    ;
+	width:100%;
+	text-align:center;
+	padding:1% 1% 1% 1% ;
+    
+}
+
+nav ul {
+    padding:0;
+	margin:0;
+	list-style-type: style none;
+    text-align: center;
+
+}
+nav li{
+    display: inline;
+    font-size: 50px;
+    padding-right: 4%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav a{
+	color:#333;
+	font-size:130%;
+	font-weight:100;
+	text-decoration:none;
+    
+}
+ a:hover{
+     background-color: black;
+
+ }
+
+
+h1{
+    color:white;
+    text-align: center;
+    padding:2px;
+
+}
+
+img{
+    height: 1000px;
+    width: 1100px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  .Pic-left{
+    position:  absolute;
+    top:50px;
+    left: 10px;
+    width: 200px;
+    height: 300px;
+  }
+  .Pic-Right{
+      position:absolute;
+      top:410px;
+      right:10px;
+      width:400px;
+      height: 300px;
+  }
+  .Text-left{
+      position:absolute;
+      top:50px;
+      left:240px;
+      text-align: left;
+      
+  }
+  
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+/*#Wrap{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    padding-left: 100px;
+    margin-left: 50px; 
+    padding-bottom: 1000px;
+    padding-right: 1100px;
+}*/
+
+#Wrap{
+	background-color:black;
+	width:90%;
+	margin:0 auto;
+	overflow:auto   ;
+    height:90%;
+    
+
+}
+
+#Projects{
+	background-color:black;
+	width:90%;
+	margin:0 auto;
+	overflow:auto   ;
+    height:90%;
+    
+
+}
+
+
+
+
+ h2{
+    margin-left: 0px;
+    margin-right: 100px;
+    color:purple;
+    text-align: center;
+    margin-bottom: 100px;
+    padding-right: 0px;
+    margin-top: 100px;
+
+
+}
+h3{
+    color: blue;
+    margin-right: 100px;
+    margin-bottom: 0px;
+    margin-left: 500px;
+    margin-top: 0px;
+}
+
