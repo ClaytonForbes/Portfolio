@@ -15,7 +15,7 @@ h1{
 	width:90%;
 	margin:0 auto;
 	overflow:auto   ;
-    height:90%;
+    height:100%;
     background-image: url('Images/Games_page.gif');
     background-size: cover; 
     opacity: 0.6; 
@@ -54,8 +54,16 @@ nav a{
 }
 
 .grid{
-    display:flex;
-    flex-wrap: wrap;
-    height: 300;
-    width: 600;
+    /*flex-wrap:nowrap;*/
+    height: 110;
+    width: 50;
+    
 }
+
+p{
+    color: black;
+    font: 50;
+    
+    
+}
+
