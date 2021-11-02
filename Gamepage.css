@@ -55,8 +55,11 @@ nav a{
 
 .grid{
     /*flex-wrap:nowrap;*/
-    height: 110;
-    width: 50;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+
     
 }
 
@@ -66,4 +69,13 @@ p{
     
     
 }
+p1{
+    float: right;
+    text-align: center;
+    color:black;
+    
 
+
+}
+
+ 
