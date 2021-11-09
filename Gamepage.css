@@ -1,100 +1,72 @@
-body{
-    background-image: url('Images/Matrix.gif');
-    height: 100vh;
-    padding:0;
-    margin:0;
-}
-h1{
-    background-color: black;
-    text-align: center;
-    color: white;
-    
-}
-#Wrap1{
-	
-	width:90%;
-	margin:0 auto;
-	overflow:auto   ;
-    height:100%;
-    background-image: url('Images/Games_page.gif');
-    background-size: cover; 
-    opacity: 0.6; 
+<!DOCTYPE html>
+<html>
+<meta charset= "utf-8">
+    <head>
+    <title>Clayton Forbes Games Page</title>
+    </head>
+<meta name="viewport" content="width=device-width, initial-scale= 1.0">
+<link href="Gamepage.css" rel="stylesheet" media="screen">
+<link rel="shortcut icon" type="image/png" href="Images/favicon.png.ico">
+<script src="Matchapp.js" charset="utf-8"></script>
+<script src="Wack_A_Mole.js" charset="utf-8"></script>
+<body>
+
+    <div id= Wrap1> <!-- the Begineing of the page -->
+        <h1>Games I made </h1>
+    <div id= games>
+        <nav>
+            <ul>
+              <li><a href="Webpage.html">Web Designs</a></li>
+              <li><a href="HomePage.html">Home</a></li>
+              <li><a href="AboutME.html">About me</a></li>
+
+            </ul>
+          </nav>
+
+          <div class="container"> 
+            <h1>Score:<span id="result"></span></h1>
+            <h2>Matching Game</h2>
+             
+        
+            <div class="grid">
+               
+                
+            </div>
+              
+            <p>In my dream I dream I am you running wolf As you run through the valleys of truth I see the dew I see the trees as though I am you I see through your eyesI feel your fears I feel your heart beating I see indians dancing round fires of peace I see the fears of what the white man brings I see peace and harmony and a place for me Running wolf one of truth why is there a place for me Because my light and soul I am the reincarnation of you
+            </p>
+        
+
+
+          </div>
+
+          <div class="gridWhack">
+            <h1>Whack a mole!</h1>
+            <h2>Your score:</h2>
+            <h2 id= "score">0</h2>
+            <h2>Seconds remaining:</h2>
+            <h2 id="time-left">60</h2>
    
-    
-    
-    
+            <div class= "gridW">
+                <div class= "square" id="1"></div>
+                <div class= "square mole" id="2"></div>
+                <div class= "square" id="3"></div>
+                <div class= "square" id="4"></div>
+                <div class= "square" id="5"></div>
+                <div class= "square" id="6"></div>
+                <div class= "square" id="7"></div>
+                <div class= "square" id="8"></div>
+                <div class= "square" id="9"></div>
+            </div>
+   
 
-}
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-nav ul {
-    padding:0;
-	margin:0;
-	list-style-type: style none;
-    text-align: center;
-
-}
-nav li{
-    display: inline;
-    font-size: 50px;
-    padding-right: 4%;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-nav a{
-	color:#333;
-	font-size:130%;
-	font-weight:100;
-	text-decoration:none;
-    
-}
-
-.grid{
-    /*flex-wrap:nowrap;*/
-    height: 300px;
-    width: 400px;
-    display: flex;
-    flex-wrap: wrap;
-
-    
-}
-
-p{
-    color: black;
-    font: 50;
-    
-    
-}
-p1{
-    float: right;
-    text-align: center;
-    color:black;
-    
+          </div>
 
 
-}
+    </div>
+    </div><!-- the Begineing of the page -->
 
-.square{
-    width: 200px;
-    height: 200px;
-    border-style: solid;
-    border-color:black;
-}
-.gridW{
-    display: flex;
-    flex-flow:row wrap;
-    justify-content: center;
-    align-content:center;
-    width: 618px;
-    height: 618px;
-}
 
-.mole{
-    background-image: url(mole.pngll);
-    background-size: cover;
 
-}
+</body>
+</html>
